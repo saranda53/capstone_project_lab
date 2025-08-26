@@ -1,5 +1,9 @@
 # Databricks notebook source
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, TimestampType, DateType
+# COMMAND ----------
+# define variable
+catalog_name = "workspace"
+schema_name = "	default"
 
 # COMMAND ----------
 # Define explicit schemas for enforcement
@@ -67,7 +71,7 @@ provider_df = (spark.read
                 .load(f"{input_path}/providers.csv"))
 
 
-(claim_df.write.format("delta").mode("overwrite").saveAs(f"{bronze_path}/sales"))
-(diagnosis_df.write.format("delta").mode("overwrite").save(f"{bronze_path}/products"))
-(patient_df.write.format("delta").mode("overwrite").save(f"{bronze_path}/customers"))
-(provider_df.write.format("delta").mode("overwrite").save(f"{bronze_path}/customers"))
+(claim_df.write.format("delta").mode("overwrite").saveAs(f"{catalog_name}.{schema_name}.bt_claim"))
+(diagnosis_df.write.format("delta").mode("overwrite").save(f"{catalog_name}.{schema_name}.bt_diagnosis"))
+(patient_df.write.format("delta").mode("overwrite").save(f"{catalog_name}.{schema_name}.bt_patient"))
+(provider_df.write.format("delta").mode("overwrite").save(f"{catalog_name}.{schema_name}.bt_provider"))
