@@ -1,0 +1,1002 @@
+[
+    {
+        "ClaimID": "C001",
+        "PatientID": "P002",
+        "ProviderID": "PR033",
+        "DiagnosisCode": "D083",
+        "ProcedureCode": "PROC996",
+        "ClaimAmount": 4143.06,
+        "ClaimDate": "2025-07-05",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C002",
+        "PatientID": "P057",
+        "ProviderID": "PR026",
+        "DiagnosisCode": "D095",
+        "ProcedureCode": "PROC487",
+        "ClaimAmount": 4200.22,
+        "ClaimDate": "2024-09-18",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C003",
+        "PatientID": "P045",
+        "ProviderID": "PR069",
+        "DiagnosisCode": "D021",
+        "ProcedureCode": "PROC733",
+        "ClaimAmount": 2688.67,
+        "ClaimDate": "2025-03-17",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C004",
+        "PatientID": "P028",
+        "ProviderID": "PR061",
+        "DiagnosisCode": "D060",
+        "ProcedureCode": "PROC147",
+        "ClaimAmount": 931.85,
+        "ClaimDate": "2025-08-08",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C005",
+        "PatientID": "P042",
+        "ProviderID": "PR053",
+        "DiagnosisCode": "D042",
+        "ProcedureCode": "PROC501",
+        "ClaimAmount": 2533.83,
+        "ClaimDate": "2025-04-10",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C006",
+        "PatientID": "P088",
+        "ProviderID": "PR003",
+        "DiagnosisCode": "D049",
+        "ProcedureCode": "PROC880",
+        "ClaimAmount": 1041.33,
+        "ClaimDate": "2025-08-14",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C007",
+        "PatientID": "P090",
+        "ProviderID": "PR048",
+        "DiagnosisCode": "D006",
+        "ProcedureCode": "PROC513",
+        "ClaimAmount": 3922.29,
+        "ClaimDate": "2025-08-07",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C008",
+        "PatientID": "P005",
+        "ProviderID": "PR072",
+        "DiagnosisCode": "D041",
+        "ProcedureCode": "PROC931",
+        "ClaimAmount": 985.2,
+        "ClaimDate": "2025-07-21",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C009",
+        "PatientID": "P013",
+        "ProviderID": "PR002",
+        "DiagnosisCode": "D012",
+        "ProcedureCode": "PROC726",
+        "ClaimAmount": 4018.77,
+        "ClaimDate": "2025-03-08",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C010",
+        "PatientID": "P096",
+        "ProviderID": "PR091",
+        "DiagnosisCode": "D058",
+        "ProcedureCode": "PROC100",
+        "ClaimAmount": 1963.17,
+        "ClaimDate": "2024-11-20",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C011",
+        "PatientID": "P008",
+        "ProviderID": "PR043",
+        "DiagnosisCode": "D014",
+        "ProcedureCode": "PROC369",
+        "ClaimAmount": 136.2,
+        "ClaimDate": "2025-02-19",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C012",
+        "PatientID": "P049",
+        "ProviderID": "PR047",
+        "DiagnosisCode": "D014",
+        "ProcedureCode": "PROC718",
+        "ClaimAmount": 4913.92,
+        "ClaimDate": "2025-02-10",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C013",
+        "PatientID": "P099",
+        "ProviderID": "PR075",
+        "DiagnosisCode": "D045",
+        "ProcedureCode": "PROC363",
+        "ClaimAmount": 228.48,
+        "ClaimDate": "2024-09-01",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C014",
+        "PatientID": "P057",
+        "ProviderID": "PR033",
+        "DiagnosisCode": "D089",
+        "ProcedureCode": "PROC208",
+        "ClaimAmount": 798.56,
+        "ClaimDate": "2024-11-07",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C015",
+        "PatientID": "P058",
+        "ProviderID": "PR038",
+        "DiagnosisCode": "D025",
+        "ProcedureCode": "PROC520",
+        "ClaimAmount": 2048.35,
+        "ClaimDate": "2024-10-24",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C016",
+        "PatientID": "P037",
+        "ProviderID": "PR008",
+        "DiagnosisCode": "D086",
+        "ProcedureCode": "PROC664",
+        "ClaimAmount": 1264.68,
+        "ClaimDate": "2025-01-10",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C017",
+        "PatientID": "P059",
+        "ProviderID": "PR026",
+        "DiagnosisCode": "D054",
+        "ProcedureCode": "PROC245",
+        "ClaimAmount": 551.34,
+        "ClaimDate": "2025-03-19",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C018",
+        "PatientID": "P051",
+        "ProviderID": "PR020",
+        "DiagnosisCode": "D058",
+        "ProcedureCode": "PROC498",
+        "ClaimAmount": 2655.1,
+        "ClaimDate": "2025-07-01",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C019",
+        "PatientID": "P064",
+        "ProviderID": "PR055",
+        "DiagnosisCode": "D087",
+        "ProcedureCode": "PROC768",
+        "ClaimAmount": 536.35,
+        "ClaimDate": "2024-12-25",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C020",
+        "PatientID": "P036",
+        "ProviderID": "PR076",
+        "DiagnosisCode": "D015",
+        "ProcedureCode": "PROC501",
+        "ClaimAmount": 2205.55,
+        "ClaimDate": "2025-03-27",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C021",
+        "PatientID": "P040",
+        "ProviderID": "PR074",
+        "DiagnosisCode": "D042",
+        "ProcedureCode": "PROC646",
+        "ClaimAmount": 3804.16,
+        "ClaimDate": "2024-11-15",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C022",
+        "PatientID": "P052",
+        "ProviderID": "PR062",
+        "DiagnosisCode": "D003",
+        "ProcedureCode": "PROC833",
+        "ClaimAmount": 2760.02,
+        "ClaimDate": "2024-11-13",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C023",
+        "PatientID": "P037",
+        "ProviderID": "PR027",
+        "DiagnosisCode": "D034",
+        "ProcedureCode": "PROC443",
+        "ClaimAmount": 4744.69,
+        "ClaimDate": "2025-02-26",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C024",
+        "PatientID": "P021",
+        "ProviderID": "PR060",
+        "DiagnosisCode": "D030",
+        "ProcedureCode": "PROC357",
+        "ClaimAmount": 2826.63,
+        "ClaimDate": "2024-11-13",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C025",
+        "PatientID": "P081",
+        "ProviderID": "PR052",
+        "DiagnosisCode": "D042",
+        "ProcedureCode": "PROC732",
+        "ClaimAmount": 2206.32,
+        "ClaimDate": "2024-12-25",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C026",
+        "PatientID": "P028",
+        "ProviderID": "PR009",
+        "DiagnosisCode": "D083",
+        "ProcedureCode": "PROC696",
+        "ClaimAmount": 3016.41,
+        "ClaimDate": "2025-02-21",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C027",
+        "PatientID": "P084",
+        "ProviderID": "PR015",
+        "DiagnosisCode": "D029",
+        "ProcedureCode": "PROC873",
+        "ClaimAmount": 863.74,
+        "ClaimDate": "2025-03-01",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C028",
+        "PatientID": "P076",
+        "ProviderID": "PR046",
+        "DiagnosisCode": "D076",
+        "ProcedureCode": "PROC486",
+        "ClaimAmount": 3338.5,
+        "ClaimDate": "2025-03-28",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C029",
+        "PatientID": "P056",
+        "ProviderID": "PR058",
+        "DiagnosisCode": "D031",
+        "ProcedureCode": "PROC142",
+        "ClaimAmount": 2990.91,
+        "ClaimDate": "2025-07-17",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C030",
+        "PatientID": "P011",
+        "ProviderID": "PR083",
+        "DiagnosisCode": "D020",
+        "ProcedureCode": "PROC994",
+        "ClaimAmount": 3562.0,
+        "ClaimDate": "2025-02-20",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C031",
+        "PatientID": "P095",
+        "ProviderID": "PR020",
+        "DiagnosisCode": "D059",
+        "ProcedureCode": "PROC688",
+        "ClaimAmount": 1457.96,
+        "ClaimDate": "2025-06-03",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C032",
+        "PatientID": "P073",
+        "ProviderID": "PR064",
+        "DiagnosisCode": "D047",
+        "ProcedureCode": "PROC857",
+        "ClaimAmount": 3219.73,
+        "ClaimDate": "2025-04-03",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C033",
+        "PatientID": "P043",
+        "ProviderID": "PR063",
+        "DiagnosisCode": "D020",
+        "ProcedureCode": "PROC858",
+        "ClaimAmount": 3287.97,
+        "ClaimDate": "2025-07-05",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C034",
+        "PatientID": "P032",
+        "ProviderID": "PR020",
+        "DiagnosisCode": "D036",
+        "ProcedureCode": "PROC360",
+        "ClaimAmount": 4415.47,
+        "ClaimDate": "2025-03-28",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C035",
+        "PatientID": "P007",
+        "ProviderID": "PR032",
+        "DiagnosisCode": "D073",
+        "ProcedureCode": "PROC755",
+        "ClaimAmount": 4270.26,
+        "ClaimDate": "2025-05-03",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C036",
+        "PatientID": "P039",
+        "ProviderID": "PR083",
+        "DiagnosisCode": "D046",
+        "ProcedureCode": "PROC276",
+        "ClaimAmount": 4274.63,
+        "ClaimDate": "2025-07-22",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C037",
+        "PatientID": "P014",
+        "ProviderID": "PR053",
+        "DiagnosisCode": "D017",
+        "ProcedureCode": "PROC186",
+        "ClaimAmount": 1317.87,
+        "ClaimDate": "2025-01-21",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C038",
+        "PatientID": "P021",
+        "ProviderID": "PR063",
+        "DiagnosisCode": "D059",
+        "ProcedureCode": "PROC231",
+        "ClaimAmount": 1565.6,
+        "ClaimDate": "2025-04-11",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C039",
+        "PatientID": "P042",
+        "ProviderID": "PR091",
+        "DiagnosisCode": "D031",
+        "ProcedureCode": "PROC420",
+        "ClaimAmount": 745.71,
+        "ClaimDate": "2025-02-05",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C040",
+        "PatientID": "P050",
+        "ProviderID": "PR093",
+        "DiagnosisCode": "D035",
+        "ProcedureCode": "PROC732",
+        "ClaimAmount": 2931.08,
+        "ClaimDate": "2025-01-11",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C041",
+        "PatientID": "P074",
+        "ProviderID": "PR073",
+        "DiagnosisCode": "D059",
+        "ProcedureCode": "PROC249",
+        "ClaimAmount": 248.93,
+        "ClaimDate": "2025-05-24",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C042",
+        "PatientID": "P094",
+        "ProviderID": "PR003",
+        "DiagnosisCode": "D052",
+        "ProcedureCode": "PROC339",
+        "ClaimAmount": 4391.78,
+        "ClaimDate": "2024-10-20",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C043",
+        "PatientID": "P097",
+        "ProviderID": "PR001",
+        "DiagnosisCode": "D047",
+        "ProcedureCode": "PROC894",
+        "ClaimAmount": 3554.51,
+        "ClaimDate": "2025-08-24",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C044",
+        "PatientID": "P081",
+        "ProviderID": "PR005",
+        "DiagnosisCode": "D043",
+        "ProcedureCode": "PROC963",
+        "ClaimAmount": 237.66,
+        "ClaimDate": "2025-07-26",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C045",
+        "PatientID": "P055",
+        "ProviderID": "PR087",
+        "DiagnosisCode": "D080",
+        "ProcedureCode": "PROC674",
+        "ClaimAmount": 4914.79,
+        "ClaimDate": "2025-07-22",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C046",
+        "PatientID": "P022",
+        "ProviderID": "PR007",
+        "DiagnosisCode": "D037",
+        "ProcedureCode": "PROC566",
+        "ClaimAmount": 771.34,
+        "ClaimDate": "2025-01-23",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C047",
+        "PatientID": "P085",
+        "ProviderID": "PR093",
+        "DiagnosisCode": "D099",
+        "ProcedureCode": "PROC774",
+        "ClaimAmount": 1832.46,
+        "ClaimDate": "2025-07-24",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C048",
+        "PatientID": "P052",
+        "ProviderID": "PR024",
+        "DiagnosisCode": "D067",
+        "ProcedureCode": "PROC822",
+        "ClaimAmount": 3905.9,
+        "ClaimDate": "2025-01-30",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C049",
+        "PatientID": "P081",
+        "ProviderID": "PR006",
+        "DiagnosisCode": "D039",
+        "ProcedureCode": "PROC636",
+        "ClaimAmount": 4321.27,
+        "ClaimDate": "2024-12-14",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C050",
+        "PatientID": "P032",
+        "ProviderID": "PR080",
+        "DiagnosisCode": "D090",
+        "ProcedureCode": "PROC450",
+        "ClaimAmount": 3453.39,
+        "ClaimDate": "2025-03-27",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C051",
+        "PatientID": "P055",
+        "ProviderID": "PR006",
+        "DiagnosisCode": "D016",
+        "ProcedureCode": "PROC222",
+        "ClaimAmount": 3124.86,
+        "ClaimDate": "2025-07-19",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C052",
+        "PatientID": "P004",
+        "ProviderID": "PR023",
+        "DiagnosisCode": "D056",
+        "ProcedureCode": "PROC626",
+        "ClaimAmount": 2571.49,
+        "ClaimDate": "2025-06-01",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C053",
+        "PatientID": "P031",
+        "ProviderID": "PR043",
+        "DiagnosisCode": "D081",
+        "ProcedureCode": "PROC695",
+        "ClaimAmount": 3496.17,
+        "ClaimDate": "2025-05-23",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C054",
+        "PatientID": "P021",
+        "ProviderID": "PR081",
+        "DiagnosisCode": "D053",
+        "ProcedureCode": "PROC160",
+        "ClaimAmount": 2923.37,
+        "ClaimDate": "2025-04-09",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C055",
+        "PatientID": "P038",
+        "ProviderID": "PR084",
+        "DiagnosisCode": "D040",
+        "ProcedureCode": "PROC242",
+        "ClaimAmount": 1237.17,
+        "ClaimDate": "2024-12-22",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C056",
+        "PatientID": "P017",
+        "ProviderID": "PR018",
+        "DiagnosisCode": "D080",
+        "ProcedureCode": "PROC295",
+        "ClaimAmount": 1321.66,
+        "ClaimDate": "2025-01-17",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C057",
+        "PatientID": "P006",
+        "ProviderID": "PR003",
+        "DiagnosisCode": "D041",
+        "ProcedureCode": "PROC944",
+        "ClaimAmount": 4985.51,
+        "ClaimDate": "2025-03-17",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C058",
+        "PatientID": "P095",
+        "ProviderID": "PR076",
+        "DiagnosisCode": "D075",
+        "ProcedureCode": "PROC908",
+        "ClaimAmount": 2644.47,
+        "ClaimDate": "2024-11-24",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C059",
+        "PatientID": "P042",
+        "ProviderID": "PR027",
+        "DiagnosisCode": "D034",
+        "ProcedureCode": "PROC256",
+        "ClaimAmount": 2045.13,
+        "ClaimDate": "2024-08-26",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C060",
+        "PatientID": "P014",
+        "ProviderID": "PR015",
+        "DiagnosisCode": "D083",
+        "ProcedureCode": "PROC282",
+        "ClaimAmount": 145.83,
+        "ClaimDate": "2025-01-26",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C061",
+        "PatientID": "P015",
+        "ProviderID": "PR059",
+        "DiagnosisCode": "D088",
+        "ProcedureCode": "PROC951",
+        "ClaimAmount": 536.6,
+        "ClaimDate": "2024-12-13",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C062",
+        "PatientID": "P043",
+        "ProviderID": "PR015",
+        "DiagnosisCode": "D038",
+        "ProcedureCode": "PROC723",
+        "ClaimAmount": 1897.02,
+        "ClaimDate": "2025-01-16",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C063",
+        "PatientID": "P088",
+        "ProviderID": "PR099",
+        "DiagnosisCode": "D027",
+        "ProcedureCode": "PROC792",
+        "ClaimAmount": 2231.6,
+        "ClaimDate": "2025-08-17",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C064",
+        "PatientID": "P002",
+        "ProviderID": "PR093",
+        "DiagnosisCode": "D011",
+        "ProcedureCode": "PROC305",
+        "ClaimAmount": 1548.23,
+        "ClaimDate": "2025-03-19",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C065",
+        "PatientID": "P072",
+        "ProviderID": "PR008",
+        "DiagnosisCode": "D021",
+        "ProcedureCode": "PROC999",
+        "ClaimAmount": 1372.31,
+        "ClaimDate": "2024-10-11",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C066",
+        "PatientID": "P054",
+        "ProviderID": "PR038",
+        "DiagnosisCode": "D097",
+        "ProcedureCode": "PROC822",
+        "ClaimAmount": 4778.91,
+        "ClaimDate": "2025-08-06",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C067",
+        "PatientID": "P006",
+        "ProviderID": "PR058",
+        "DiagnosisCode": "D046",
+        "ProcedureCode": "PROC495",
+        "ClaimAmount": 1188.67,
+        "ClaimDate": "2025-05-31",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C068",
+        "PatientID": "P008",
+        "ProviderID": "PR037",
+        "DiagnosisCode": "D097",
+        "ProcedureCode": "PROC605",
+        "ClaimAmount": 4183.55,
+        "ClaimDate": "2024-11-12",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C069",
+        "PatientID": "P008",
+        "ProviderID": "PR046",
+        "DiagnosisCode": "D019",
+        "ProcedureCode": "PROC588",
+        "ClaimAmount": 1453.5,
+        "ClaimDate": "2024-11-01",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C070",
+        "PatientID": "P022",
+        "ProviderID": "PR019",
+        "DiagnosisCode": "D084",
+        "ProcedureCode": "PROC405",
+        "ClaimAmount": 3537.3,
+        "ClaimDate": "2025-07-31",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C071",
+        "PatientID": "P067",
+        "ProviderID": "PR063",
+        "DiagnosisCode": "D098",
+        "ProcedureCode": "PROC783",
+        "ClaimAmount": 3235.24,
+        "ClaimDate": "2024-09-21",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C072",
+        "PatientID": "P005",
+        "ProviderID": "PR024",
+        "DiagnosisCode": "D006",
+        "ProcedureCode": "PROC994",
+        "ClaimAmount": 4374.14,
+        "ClaimDate": "2025-04-03",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C073",
+        "PatientID": "P004",
+        "ProviderID": "PR090",
+        "DiagnosisCode": "D020",
+        "ProcedureCode": "PROC591",
+        "ClaimAmount": 2667.91,
+        "ClaimDate": "2025-07-02",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C074",
+        "PatientID": "P094",
+        "ProviderID": "PR060",
+        "DiagnosisCode": "D020",
+        "ProcedureCode": "PROC944",
+        "ClaimAmount": 4543.52,
+        "ClaimDate": "2025-03-30",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C075",
+        "PatientID": "P077",
+        "ProviderID": "PR014",
+        "DiagnosisCode": "D049",
+        "ProcedureCode": "PROC104",
+        "ClaimAmount": 3369.56,
+        "ClaimDate": "2025-07-03",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C076",
+        "PatientID": "P061",
+        "ProviderID": "PR023",
+        "DiagnosisCode": "D083",
+        "ProcedureCode": "PROC227",
+        "ClaimAmount": 4903.49,
+        "ClaimDate": "2024-11-12",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C077",
+        "PatientID": "P022",
+        "ProviderID": "PR052",
+        "DiagnosisCode": "D024",
+        "ProcedureCode": "PROC699",
+        "ClaimAmount": 4355.81,
+        "ClaimDate": "2024-09-28",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C078",
+        "PatientID": "P062",
+        "ProviderID": "PR057",
+        "DiagnosisCode": "D085",
+        "ProcedureCode": "PROC451",
+        "ClaimAmount": 4498.56,
+        "ClaimDate": "2025-02-10",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C079",
+        "PatientID": "P061",
+        "ProviderID": "PR089",
+        "DiagnosisCode": "D059",
+        "ProcedureCode": "PROC657",
+        "ClaimAmount": 1314.79,
+        "ClaimDate": "2025-06-16",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C080",
+        "PatientID": "P037",
+        "ProviderID": "PR070",
+        "DiagnosisCode": "D078",
+        "ProcedureCode": "PROC430",
+        "ClaimAmount": 1424.65,
+        "ClaimDate": "2025-02-14",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C081",
+        "PatientID": "P098",
+        "ProviderID": "PR016",
+        "DiagnosisCode": "D012",
+        "ProcedureCode": "PROC367",
+        "ClaimAmount": 2945.83,
+        "ClaimDate": "2025-03-24",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C082",
+        "PatientID": "P057",
+        "ProviderID": "PR070",
+        "DiagnosisCode": "D067",
+        "ProcedureCode": "PROC958",
+        "ClaimAmount": 2466.57,
+        "ClaimDate": "2025-06-14",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C083",
+        "PatientID": "P094",
+        "ProviderID": "PR046",
+        "DiagnosisCode": "D052",
+        "ProcedureCode": "PROC869",
+        "ClaimAmount": 1790.15,
+        "ClaimDate": "2025-02-17",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C084",
+        "PatientID": "P047",
+        "ProviderID": "PR015",
+        "DiagnosisCode": "D079",
+        "ProcedureCode": "PROC290",
+        "ClaimAmount": 964.67,
+        "ClaimDate": "2024-10-01",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C085",
+        "PatientID": "P031",
+        "ProviderID": "PR076",
+        "DiagnosisCode": "D039",
+        "ProcedureCode": "PROC286",
+        "ClaimAmount": 2986.38,
+        "ClaimDate": "2025-05-02",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C086",
+        "PatientID": "P055",
+        "ProviderID": "PR050",
+        "DiagnosisCode": "D034",
+        "ProcedureCode": "PROC347",
+        "ClaimAmount": 2000.67,
+        "ClaimDate": "2025-02-06",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C087",
+        "PatientID": "P056",
+        "ProviderID": "PR059",
+        "DiagnosisCode": "D022",
+        "ProcedureCode": "PROC321",
+        "ClaimAmount": 2623.93,
+        "ClaimDate": "2024-10-14",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C088",
+        "PatientID": "P097",
+        "ProviderID": "PR078",
+        "DiagnosisCode": "D036",
+        "ProcedureCode": "PROC271",
+        "ClaimAmount": 2649.88,
+        "ClaimDate": "2025-05-27",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C089",
+        "PatientID": "P005",
+        "ProviderID": "PR037",
+        "DiagnosisCode": "D010",
+        "ProcedureCode": "PROC462",
+        "ClaimAmount": 2415.75,
+        "ClaimDate": "2024-12-06",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C090",
+        "PatientID": "P048",
+        "ProviderID": "PR094",
+        "DiagnosisCode": "D039",
+        "ProcedureCode": "PROC925",
+        "ClaimAmount": 1104.56,
+        "ClaimDate": "2025-07-09",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C091",
+        "PatientID": "P033",
+        "ProviderID": "PR002",
+        "DiagnosisCode": "D040",
+        "ProcedureCode": "PROC965",
+        "ClaimAmount": 4663.05,
+        "ClaimDate": "2025-03-02",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C092",
+        "PatientID": "P083",
+        "ProviderID": "PR088",
+        "DiagnosisCode": "D078",
+        "ProcedureCode": "PROC658",
+        "ClaimAmount": 1093.48,
+        "ClaimDate": "2024-10-14",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C093",
+        "PatientID": "P001",
+        "ProviderID": "PR026",
+        "DiagnosisCode": "D013",
+        "ProcedureCode": "PROC521",
+        "ClaimAmount": 3983.74,
+        "ClaimDate": "2024-11-30",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C094",
+        "PatientID": "P035",
+        "ProviderID": "PR036",
+        "DiagnosisCode": "D020",
+        "ProcedureCode": "PROC323",
+        "ClaimAmount": 4689.81,
+        "ClaimDate": "2025-05-13",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C095",
+        "PatientID": "P080",
+        "ProviderID": "PR009",
+        "DiagnosisCode": "D064",
+        "ProcedureCode": "PROC511",
+        "ClaimAmount": 2104.99,
+        "ClaimDate": "2024-10-14",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C096",
+        "PatientID": "P071",
+        "ProviderID": "PR039",
+        "DiagnosisCode": "D016",
+        "ProcedureCode": "PROC915",
+        "ClaimAmount": 1123.77,
+        "ClaimDate": "2025-07-04",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C097",
+        "PatientID": "P082",
+        "ProviderID": "PR012",
+        "DiagnosisCode": "D017",
+        "ProcedureCode": "PROC321",
+        "ClaimAmount": 1180.72,
+        "ClaimDate": "2025-07-05",
+        "Status": "Denied"
+    },
+    {
+        "ClaimID": "C098",
+        "PatientID": "P093",
+        "ProviderID": "PR015",
+        "DiagnosisCode": "D033",
+        "ProcedureCode": "PROC782",
+        "ClaimAmount": 1403.64,
+        "ClaimDate": "2024-12-21",
+        "Status": "Approved"
+    },
+    {
+        "ClaimID": "C099",
+        "PatientID": "P082",
+        "ProviderID": "PR087",
+        "DiagnosisCode": "D084",
+        "ProcedureCode": "PROC628",
+        "ClaimAmount": 4762.5,
+        "ClaimDate": "2025-08-25",
+        "Status": "Pending"
+    },
+    {
+        "ClaimID": "C100",
+        "PatientID": "P011",
+        "ProviderID": "PR072",
+        "DiagnosisCode": "D028",
+        "ProcedureCode": "PROC580",
+        "ClaimAmount": 3813.52,
+        "ClaimDate": "2025-01-21",
+        "Status": "Pending"
+    }
+]
