@@ -1,12 +1,17 @@
 # Databricks notebook source
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, TimestampType, DateType, BooleanType, ArrayType
+import dlt
+from pyspark.sql.functions import *
 
 # COMMAND ----------
 
 # define variable
 catalog_name = "workspace"
 schema_name = "	default"
+
 input_path = "/Volumes/workspace/default/data/input"
+checkpoint_path = "/FileStore/data/checkpoints/autoloader_demo/"
+schema_location = "/FileStore/data/schema/autoloader_demo/"
 
 # COMMAND ----------
 
@@ -66,13 +71,13 @@ provider_schema = StructType([
 
 
 
-claim_df = (spark.read
-            .format("csv")
-            .schema(claim_schema)
-            .option("header", "true")
-            .option("DateFormat", "yyyy-MM-dd")
-            .option("TimestampFormat", "yyyy-MM-dd hh:mm:ss")
-            .load(f"{input_path}/claims_batch.csv"))
+# claim_df = (spark.read
+#             .format("csv")
+#             .schema(claim_schema)
+#             .option("header", "true")
+#             .option("DateFormat", "yyyy-MM-dd")
+#             .option("TimestampFormat", "yyyy-MM-dd hh:mm:ss")
+#             .load(f"{input_path}/claims_batch.csv"))
 
 diagnosis_df = (spark.read
                .format("csv")
@@ -99,9 +104,29 @@ provider_df = (spark.read
 
 # COMMAND ----------
 
-(claim_df.write.format("delta").mode("overwrite").saveAsTable(f"{catalog_name}.{schema_name}.bt_claim"))
+# (claim_df.write.format("delta").mode("overwrite").saveAsTable(f"{catalog_name}.{schema_name}.bt_claim"))
 (diagnosis_df.write.format("delta").mode("overwrite").saveAsTable(f"{catalog_name}.{schema_name}.bt_diagnosis"))
 (member_df.write.format("delta").mode("overwrite").saveAsTable(f"{catalog_name}.{schema_name}.bt_member"))
 (provider_df.write.format("delta").mode("overwrite").saveAsTable(f"{catalog_name}.{schema_name}.bt_provider"))
 
 # COMMAND ----------
+
+claim_df = (
+  spark.readStream
+      .format("cloudFiles")
+      .option("cloudFiles.format", "json")
+      .option("header", True)
+      .option("cloudFiles.schemaLocation", schema_location)
+      .option("pathGlobFilter", "claims_stream*.json")
+      .schema(claim_schema)
+      .load(input_path)
+)
+
+query = (
+  claim_df.writeStream
+    .format("delta")
+    .outputMode("append")
+    .option("checkpointLocation", checkpoint_path)
+    .trigger(availableNow=True)
+    .toTable(f"{catalog_name}.{schema_name}.bt_claim")
+)
