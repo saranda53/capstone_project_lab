@@ -1,0 +1,15 @@
+id: 87e5415e-f179-444e-8b7d-189bf73f7e4d
+pipeline_type: WORKSPACE
+name: claims_dlt_pipeline
+configuration:
+  pipelines.trigger.interval: 1 minute
+libraries:
+  - glob:
+      include: /Workspace/Users/festoon53@gmail.com/capstone_project_lab/dlt/claims_dlt_pipeline.py
+schema: bronze
+continuous: false
+development: true
+photon: true
+channel: PREVIEW
+catalog: capstone
+serverless: true

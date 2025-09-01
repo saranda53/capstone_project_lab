@@ -1,0 +1,47 @@
+resources:
+  jobs:
+    capstone_jobs:
+      name: capstone_jobs
+      email_notifications:
+        on_failure:
+          - festoon53@gmail.com
+      schedule:
+        quartz_cron_expression: 0 0/30 * * * ?
+        timezone_id: UTC
+        pause_status: PAUSED
+      tasks:
+        - task_key: bronze_ingest
+          notebook_task:
+            notebook_path: /Workspace/Users/festoon53@gmail.com/capstone_project_lab/notebooks/01_bronze_ingest_autoloader
+            base_parameters:
+              catalog: capstone
+            source: WORKSPACE
+          max_retries: 2
+          min_retry_interval_millis: 300000
+          retry_on_timeout: true
+          timeout_seconds: 7200
+        - task_key: silver_transform
+          depends_on:
+            - task_key: bronze_ingest
+          notebook_task:
+            notebook_path: /Workspace/Users/festoon53@gmail.com/capstone_project_lab/notebooks/02_silver_transformations
+            base_parameters:
+              catalog: capstone
+            source: WORKSPACE
+          max_retries: 2
+          min_retry_interval_millis: 0
+          timeout_seconds: 7200
+        - task_key: gold_analytics
+          depends_on:
+            - task_key: silver_transform
+          notebook_task:
+            notebook_path: /Workspace/Users/festoon53@gmail.com/capstone_project_lab/notebooks/03_gold_analytics
+            base_parameters:
+              catalog: capstone
+            source: WORKSPACE
+          max_retries: 2
+          min_retry_interval_millis: 0
+          timeout_seconds: 7200
+      queue:
+        enabled: true
+      performance_target: STANDARD
